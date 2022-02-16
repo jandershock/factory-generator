@@ -25,7 +25,6 @@ const coloredReindeerBuilder = function () {
                 color: `${colorGen.next().value}`
             })
         })
-    console.log(coloredReindeer);
 
     // Return coloredReindeer array
     return coloredReindeer;
